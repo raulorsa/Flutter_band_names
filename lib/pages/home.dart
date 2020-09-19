@@ -55,7 +55,9 @@ class _HomePageState extends State<HomePage> {
         alignment: Alignment.centerLeft,
         child: Text('Delete Band', style: TextStyle(color: Colors.white))),
       ),
-      onDismissed: (),
+      onDismissed: (direction){
+        
+      },
       key: Key(band.id),
       child: ListTile(
           leading: CircleAvatar(
